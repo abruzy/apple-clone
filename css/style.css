@@ -44,16 +44,24 @@ nav ul {
   overflow: hidden;
   border-radius: 5px;
   background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
-
 }
 
 nav li {
   float: left;
-  border-right:1px solid rgba(75, 75, 75, 0.8);
+  border-right: 1px solid rgba(75, 75, 75, 0.8);
 }
 
 nav li:last-child {
   border-right: none;
+}
+
+footer a {
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 12px;
+  color: blue;
+  text-decoration: none;
 }
 
 nav li a {
@@ -67,64 +75,6 @@ nav li a {
 nav li a:hover {
   background-color: rgba(0, 0, 0, 0.4);
 }
-
-
-/* nav ul {
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 36px;
-  margin: 0 auto;
-  padding: 0 2%;
-  border-radius: 3px;
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
-}
-
-nav li {
-  display: inline;
-  border-right: 1px solid #999;
-  padding:  5px 0;
-}
-
-nav li:hover {
-  background: rgba(0, 0, 0, 0.4);
-}
-
-
-nav li:last-child {
-  border-right: none;
-}
-
-nav li a {
-  padding: 0 1rem;
-}
-
-.apple-logo,
-.search-logo {
-  height: 20px;
-}
-
-svg.svg {
-  fill: white;
-
-}
-
-.search-logo {
-  color: white;
-}
-
-.search {
-  border: 1px solid #999;
-  background-color: #6F6F6F;
-  border-radius: 10px;
-}
-
-.search input {
-  border: 1px solid #999;
-  background-color: #6F6F6F;
-  border-radius: 10px;
-} */
 
 .hero h1 {
   font-size: 3.5em;
@@ -161,15 +111,6 @@ footer {
 
 footer p {
   font-size: 12px;
-}
-
-footer a {
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  font-size: 12px;
-  color: blue;
-  text-decoration: none;
 }
 
 footer .links {
