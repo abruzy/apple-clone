@@ -43,7 +43,7 @@ nav ul {
   padding: 0;
   overflow: hidden;
   border-radius: 5px;
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 }
 
 nav li {
@@ -83,6 +83,10 @@ nav li a:hover {
   color: whitesmoke;
 }
 
+footer p {
+  font-size: 12px;
+}
+
 .hero p {
   font-size: 1.7em;
 }
@@ -93,6 +97,13 @@ nav li a:hover {
   grid-template-rows: 1;
   grid-gap: 3px;
   margin-top: 3px;
+}
+
+footer img {
+  height: 13px;
+  width: 13px;
+  max-width: 100%;
+  align-self: center;
 }
 
 .img-thumbnail img {
@@ -109,19 +120,8 @@ footer {
   padding: 1rem 5%;
 }
 
-footer p {
-  font-size: 12px;
-}
-
 footer .links {
   align-self: flex-start;
-}
-
-footer img {
-  height: 13px;
-  width: 13px;
-  max-width: 100%;
-  align-self: center;
 }
 
 footer .border-right {
