@@ -37,7 +37,8 @@ nav img {
 }
 
 nav ul {
-  width: 76%;
+  max-width: 100%;
+  width: 64%;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -68,7 +69,7 @@ nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 10px 35px;
+  padding: 10px 26px;
   text-decoration: none;
 }
 
