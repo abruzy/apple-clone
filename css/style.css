@@ -38,7 +38,7 @@ nav img {
 
 nav ul {
   max-width: 100%;
-  width: 64%;
+  width: 65%;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -54,6 +54,24 @@ nav li {
 
 nav li:last-child {
   border-right: none;
+}
+
+nav ul input[type=text] {
+  background-color: rgba(255,255,255,.1);  width: 100px;
+  border-radius: 12px;
+  height: 23px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
+  width: 80px;
+  padding: 0 5px;
+}
+
+nav ul .search-container {
+  display: flex;
+  height: 36px;
+  padding: 0 12px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer a {
