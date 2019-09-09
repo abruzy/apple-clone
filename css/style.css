@@ -56,7 +56,7 @@ nav li:last-child {
   border-right: none;
 }
 
-nav ul input[type=text] {
+nav input[type=text] {
   background-color: rgba(255,255,255,.1);  width: 100px;
   border-radius: 12px;
   height: 23px;
@@ -66,7 +66,7 @@ nav ul input[type=text] {
   padding: 0 5px;
 }
 
-nav ul .search-container {
+nav .search-container {
   display: flex;
   height: 36px;
   padding: 0 12px;
