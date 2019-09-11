@@ -36,6 +36,10 @@ nav img {
   background-size: 1440px 1315px;
 }
 
+nav {
+  position: relative;
+}
+
 nav ul {
   max-width: 100%;
   width: 65%;
@@ -54,6 +58,21 @@ nav li {
 
 nav li:last-child {
   border-right: none;
+}
+
+.search {
+  position: absolute;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
 }
 
 nav input[type=text] {
@@ -110,6 +129,10 @@ footer p {
   font-size: 1.7em;
 }
 
+.hero p a:hover {
+  text-decoration: underline;
+}
+
 .img-thumbnail {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -149,6 +172,11 @@ footer .border-right {
 
 footer .links p a {
   padding: 0 3px;
+  color: #08c;
+}
+
+footer .links p a:hover {
+  text-decoration: underline;
 }
 
 footer .terms-border-right {
@@ -158,5 +186,13 @@ footer .terms-border-right {
 
 footer .copyrights p {
   color: #6e6e6e;
+}
+
+footer .copyrights p a {
+  color: #08c;
+}
+
+footer .copyrights p a:hover {
+  text-decoration: underline;
 }
 
