@@ -129,6 +129,15 @@ footer p {
   font-size: 1.7em;
 }
 
+footer .links p a {
+  padding: 0 3px;
+  color: #08c;
+}
+
+footer .copyrights p a {
+  color: #08c;
+}
+
 .hero p a:hover {
   text-decoration: underline;
 }
@@ -170,11 +179,6 @@ footer .border-right {
   border-right: 1px solid #c6c6c6;
 }
 
-footer .links p a {
-  padding: 0 3px;
-  color: #08c;
-}
-
 footer .links p a:hover {
   text-decoration: underline;
 }
@@ -188,10 +192,6 @@ footer .copyrights p {
   color: #6e6e6e;
 }
 
-footer .copyrights p a {
-  color: #08c;
-}
-
 footer .copyrights p a:hover {
   text-decoration: underline;
 }
@@ -199,4 +199,3 @@ footer .copyrights p a:hover {
 .usa {
   margin-left: 5px;
 }
-
