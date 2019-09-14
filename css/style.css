@@ -42,7 +42,7 @@ nav {
 
 nav ul {
   max-width: 100%;
-  width: 65%;
+  width: 67%;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -65,24 +65,23 @@ nav li:last-child {
 }
 
 .icon {
-  padding: 10px;
-  min-width: 20px;
+  margin-right: -25px;
+  margin-bottom: -5px;
 }
 
 .input-field {
   width: 100%;
-  padding: 10px;
   text-align: center;
 }
 
 nav input[type=text] {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  height: 23px;
+  height: 21px;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
-  width: 80px;
-  padding: 0 5px;
+  width: 110px;
+  outline: none;
 }
 
 nav .search-container {
@@ -106,7 +105,7 @@ nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 10px 26px;
+  padding: 7px 26px;
   text-decoration: none;
 }
 
