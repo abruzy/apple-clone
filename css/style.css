@@ -1,0 +1,196 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav img {
+  max-width: 100%;
+}
+
+.inner-container {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  color: white;
+  height: auto;
+  margin-top: 50px;
+}
+
+.img-container {
+  position: relative;
+  height: 81%;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+  background-size: 1440px 1315px;
+}
+
+nav ul {
+  max-width: 100%;
+  width: 67%;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 5px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+}
+
+nav li {
+  float: left;
+  border-right: 1px solid rgba(75, 75, 75, 0.8);
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+.search {
+  position: absolute;
+}
+
+.icon {
+  margin-right: -25px;
+  margin-bottom: -5px;
+}
+
+.input-field {
+  width: 30%;
+  text-align: center;
+}
+
+nav input[type=text] {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  height: 21px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
+  width: 110px;
+  outline: none;
+}
+
+nav .search-container {
+  display: flex;
+  height: 36px;
+  padding: 0 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer a {
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 12px;
+  color: blue;
+  text-decoration: none;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px 21px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero h1 {
+  font-size: 3.5em;
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+  color: whitesmoke;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+.hero p {
+  font-size: 1.7em;
+}
+
+footer .links p a {
+  padding: 0 3px;
+  color: #08c;
+}
+
+footer .copyrights p a {
+  color: #08c;
+}
+
+.hero p a:hover {
+  text-decoration: underline;
+}
+
+.img-thumbnail {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1;
+  grid-gap: 3px;
+  margin-top: 3px;
+}
+
+footer img {
+  height: 13px;
+  width: 13px;
+  max-width: 100%;
+  align-self: center;
+}
+
+.img-thumbnail img {
+  max-width: 100%;
+  width: 364px;
+  height: 200px;
+}
+
+footer {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+}
+
+footer .links {
+  align-self: flex-start;
+}
+
+footer .border-right {
+  border-right: 1px solid #c6c6c6;
+}
+
+footer .links p a:hover {
+  text-decoration: underline;
+}
+
+footer .terms-border-right {
+  border-right: 1px solid #c6c6c6;
+  padding-right: 3px;
+}
+
+footer .copyrights p {
+  color: #6e6e6e;
+}
+
+footer .copyrights p a:hover {
+  text-decoration: underline;
+}
+
+.usa {
+  margin-left: 5px;
+}
