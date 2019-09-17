@@ -6,7 +6,7 @@ This is an attempt to clone an apple page as part of completing the curriculum a
 - CSS
 
 ## Live Demo
-https://rawcdn.githack.com/abruzy/apple-clone/53a0cdb035dbdfa8b4a8087230542bfef768e448/index.html
+https://rawcdn.githack.com/abruzy/apple-clone/764a638d176e8f879785de88b546b813ae05e50a/index.html
 
 ## Authors
 - [Abubakar Diallo](https://github.com/abruzy)
