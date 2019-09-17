@@ -36,10 +36,6 @@ nav img {
   background-size: 1440px 1315px;
 }
 
-nav {
-  position: relative;
-}
-
 nav ul {
   max-width: 100%;
   width: 67%;
@@ -70,7 +66,7 @@ nav li:last-child {
 }
 
 .input-field {
-  width: 100%;
+  width: 30%;
   text-align: center;
 }
 
@@ -105,7 +101,7 @@ nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 7px 26px;
+  padding: 7px 21px;
   text-decoration: none;
 }
 
