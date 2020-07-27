@@ -8,6 +8,8 @@
 
 > This is an attempt to clone an apple page as part of completing the curriculum at Microverse.org
 
+![apple-clone](./apple-clone.png)
+
 ## Built With
 
 - HTML5
