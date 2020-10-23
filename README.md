@@ -17,7 +17,7 @@
 
 ### ✨ Demo
 
-[Demo](https://rawcdn.githack.com/abruzy/apple-clone/1344bab3455f4efafaffb1a64b68b53a887360eb/index.html)
+[Demo](https://rawcdn.githack.com/abruzy/apple-clone/4a74658447c28a7d0edf876cc786cdf03b275f91/index.html)
 
 ## Authors
 
